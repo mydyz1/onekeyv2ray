@@ -3,7 +3,7 @@
         "loglevel":"warning"
     },
     "inbounds":[
-	    {
+	    /*{
             "tag":"ssin",
 			"protocol":"shadowsocks",
             "port":8080,
@@ -11,23 +11,22 @@
                 "method":"aes-256-cfb",
                 "password":"SSoCkS823)@%"
             }
-        }/*,
+    },*/
 		{
 			"tag":"vmessin",
 			"port":8080,
 			"protocol":"vmess",
 			"settings":{
 				"clients":
-				[   {
-						"id":"your_uuid",
-						"alterId":32
-                    }
-				]
+				[{
+					"id":"your_uuid",
+					"alterId":32
+                    		 }]
 			},
 			"streamSettings":{
 				"network":"ws"
 			}
-		}*/
+		}
 	],
     "outbounds":[
 		{
