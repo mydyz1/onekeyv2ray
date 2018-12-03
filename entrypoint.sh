@@ -6,6 +6,7 @@
 #fi
 
 cd /v2ray
+#echo -e "$CONFIG_JSON" > config.json
 ls -l
 wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
 mkdir v2ray-v$VER-linux-64
