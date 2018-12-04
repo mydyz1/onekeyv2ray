@@ -4,6 +4,7 @@
 #  echo -e "$CERT_PEM" > cert.pem
 #  echo -e "$KEY_PEM"  > key.pem
 #fi
+ENV VER=4.7.0 UUID=98d31d17-53da-4198-b30b-61b1cee07317
 
 cd /v2ray
 #echo -e "$CONFIG_JSON" > config.json
