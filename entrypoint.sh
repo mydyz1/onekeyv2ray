@@ -9,7 +9,7 @@ ENV VER=4.7.0 UUID=98d31d17-53da-4198-b30b-61b1cee07317
 cd /v2ray
 #echo -e "$CONFIG_JSON" > config.json
 ls -l
-wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
+wget -O v2ray.zip https://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
 mkdir v2ray-v$VER-linux-64
 unzip v2ray.zip -d v2ray-v$VER-linux-64
 echo show current dir
