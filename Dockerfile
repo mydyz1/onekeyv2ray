@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+
+
 #ENV CONFIG_JSON=none CERT_PEM=none KEY_PEM=none VER=4.0.2
 
 #RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
