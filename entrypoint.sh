@@ -4,7 +4,7 @@
 #  echo -e "$CERT_PEM" > cert.pem
 #  echo -e "$KEY_PEM"  > key.pem
 #fi
-VER=4.18.0 
+VER=4.20.0 
 UUID=98d31d17-53da-4198-b30b-61b1cee07317
 
 cd /v2ray
